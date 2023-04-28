@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid making</title>
+    <style>
+        div{
+            display:grid;
+            grid-template-columns: 100px 100px 100px;
+            grid-template-rows: 100px 100px 100px;
+            grid-column: 5px;
+            grid-row: 10px;
+
+        }
+        div:hover{
+        
+        gap: 10px;
+            width: 500px;
+        }
+        img{
+            height: 100%;
+            width: 100%;
+        }
+        #chat{
+            background-color: bisque;
+            display: inline-block;
+        
+            transform: 2s;
+            position: relative;
+            top: 0px;
+            left: 450px;
+        
+         }
+         #chat:hover{
+
+            background-color: aquamarine;
+            height: 300px;
+            width: 175px;
+            top: 80px;
+         }
+
+    </style>
+</head>
+<body>
+    <div>
+        <img src="https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg" alt="">
+        <img src="https://iso.500px.com/wp-content/uploads/2016/03/stock-photo-142984111-1500x1000.jpg" alt="">
+        <img src="https://thumbs.dreamstime.com/b/environment-earth-day-hands-trees-growing-seedlings-bokeh-green-background-female-hand-holding-tree-nature-field-gra-130247647.jpg" alt="">
+        <img src="https://www.shutterstock.com/image-photo/earth-crystal-glass-globe-ball-260nw-1500154991.jpg" alt="">
+        <img src="https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072823__340.jpg" alt="">
+        <img src="https://images.unsplash.com/reserve/bOvf94dPRxWu0u3QsPjF_tree.jpg?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bmF0dXJhbHxlbnwwfHwwfHw%3D&w=1000&q=80" alt="">
+    </div>
+    <div id="chat" style="position: relative;">
+        <h1 id="chatbox" style="position: relative;background-color: brown;margin-top: 1px;">CHAT BOX</h1>
+        <p id="chatbox1">hiii</p>
+        <p id="chatbox2" style="position: relative;left: 120px;" >hello</p>
+    <p id="chatbox3">how are you ree</p>
+    <p id="chatbox4" style="position: relative;width:100px;left: 80px;">im fine what about u ree</p>
+    
+    <input type="text" placeholder="text message">
+    <input type="button" value="send">
+</div>
+    
+</body>
+</html>
