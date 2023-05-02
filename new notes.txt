@@ -1,0 +1,81 @@
+relative
+absolute
+fixed
+stikey
+static
+using of positions
+book mark
+
+flex properties
+grid properties
+2d transform
+3d transform
+transition
+animation
+
+
+19/04/2023 css
+responsive screen
+@media{ (max,min-width:)}
+print
+screens
+all
+width is main
+toggle bar
+gradient
+maths functions
+attr sectors
+{seraching web page:syntax for media}
+
+grid touch gaping
+hover
+
+complete css 20/04/23
+selector
+how to
+coments 
+boxmodel
+outline( border taruvata outline vastadi)
+outline offset(border box ki gap istadi)
+text
+google icons
+links
+media quries
+:root {complete body control
+var 
+
+Git 
+command 
+git is a verson control system 
+repositery to give storage (enta mandi ayina accounte creatchesikovachu)
+project store
+clone-as it is
+git push
+
+
+24/04/0023
+boostrap
+dynamic
+
+
+bootstrap
+libreary
+typography
+according
+carousel
+
+
+java script
+scope
+variables
+both dicalration and instalisation
+
+
+
+
+
+
+
+
+
+
