@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        document.write('1.Create a function that takes two numbers as arguments and returns their sum.'+'ANS:'+' ')
+        function sum(a,b){
+            return a+b;
+        }
+        console.log(sum(4,5))
+        document.write(sum(4,5))
+        document.write('<br>')//break the line and continue the next formation
+       document.write("2.Writing a function that takes an integer minutes and converts it to seconds."+ 'ANS:'+ ' ')
+function minute(minutes){
+
+     
+}
+var minute=+prompt('enter the minute value')  
+alert(minute*60 +" "+'seconds')
+document.write(minute*60 +' '+'seconds')
+ 
+document.write('3.create a function that takes a number as an argument,increment the number by +1 and return the result'+'ANS:'+' ')
+function num(a){
+    return a+1
+}
+   console.log(num(2)) // given value to 'a'
+   document.write('<br>')//break the line
+   document.write('4.creat a function that takes the age in years and return the age in days'+'ANS:'+' ')
+   function age(a){
+    return a*365
+  }
+  let years=+prompt('enter the year ')
+  alert(age(years)+' '+'days')
+  document.write(age(years)+' '+'days')
+document.write('<br>')//break the line
+document.write('7.creat a function that take a two arguments.both arguments are integers, a and b.return true if one of them is 10 or if ther sum is 10'+' ')
+function nam(a,b){
+    c=a+b
+    d=c
+    return c<=d
+
+}
+var a=+prompt('enter the a value')
+var b=+prompt('enter the b value')
+alert(nam(a,b))
+document.write('<br>')
+document.write('8.creat a function that takes two stings as arguments and return either true or false depanding on whether the total number of chracters in the second sting.'+' ')
+var a="10k"
+var b='coders'
+function string(a,b){
+    if(a.length<b.length){
+        document.write('True'+' '+'a stings  less then b stings ')
+    
+    }else{
+        document.write('false')
+    }
+    return a<b
+    }
+console.log(string(a,b))
+
+
+
+    </script>
+</body>
+</html>
